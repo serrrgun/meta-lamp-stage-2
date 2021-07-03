@@ -1,0 +1,26 @@
+.title {
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: $darkShade-100;
+
+  &--middle {
+    font-weight: bold;
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+  }
+
+  &--small {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+}
+
+.text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $darkShade-75;
+}

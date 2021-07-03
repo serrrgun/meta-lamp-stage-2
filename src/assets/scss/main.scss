@@ -3,6 +3,11 @@
 @import "utils/mixins";
 @import "utils/fonts";
 @import "utils/reset";
+@import "utils/typography.scss";
+
+// components
+
+@import "../../pug/components/text-field/text-field.scss";
 
 html {
   line-height: $mainLineHeight;
@@ -57,10 +62,12 @@ section, .section {
 }
 
 .wrapper {
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .content-wrapper {
